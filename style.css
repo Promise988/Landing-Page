@@ -62,16 +62,68 @@ button {
 }
 
 .pt3 {
+    padding: 10px;
     background-color: white;
     color: black;
     display: flex;
-    border: red solid 2px;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
 }
+
 .champ {
-    border: 2px green solid;
     max-width: 200px;
     text-align: center;
-    gap: 30px;
+}
+
+.champ img {
+    border-radius: 40px;
+}
+
+.pt4 {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: black;
+    padding: 0 200px;
+    text-align: center;
+}
+
+.qtext {
+    font-size: 36px;
+    font-style: italic;
+    padding: 15px 0 0;
+    
+}
+
+.qname {
+    font-size: 18px;
+    text-align: right;
+    padding: 0px 30px 40px;
+}
+
+.pt5 {
+    display: flex;
+    height: 125px;
+    margin: 50px 200px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px 80px;
+}
+
+.left h3, .left p {
+    color: white;
+}
+
+.right button {
+    margin-left: 600px;
+    border: 3px solid #F9FAF8;
+    width: 100px;
+}
+
+.end {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 15px;
+    color: white;
 }
