@@ -1,2 +1,2 @@
 # Landing-Page
-Landing page using CSS Flexbox
+Landing page created using CSS Flexbox

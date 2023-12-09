@@ -1,0 +1,172 @@
+html {
+    height: 100%;
+}
+body { 
+    margin: 0px;
+    height: 100vh;
+  }
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    /* justify-content: end;     */
+
+    /* width: 100vw; */
+    
+}
+
+.header img {
+    /* justify-self: start; */
+    width: 130px;
+    height: 130px;
+    padding: 10px;
+    padding-left: 3%;
+}
+
+.header-link {
+    width: 100%;
+    margin-right: 5%;
+    align-self: center;
+    justify-content: end;
+    gap: 20px;
+    display: flex;
+    /* gap: 30px; */
+}
+
+.header-link button {
+    font-size: x-large;
+    color: white;
+    background-color: #1F2937;
+    border: none;
+}
+
+.signup {
+    display: flex;
+    height: 40vh;
+    padding-left: 3%;
+    color: beige;
+    background-color: #1F2937;
+}
+
+.signup div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.signup button {
+    width: 100px;
+    
+}
+
+.signup .lolimg {
+    flex-wrap: wrap;
+    width: 50%;
+    align-content: end;
+    padding-right: 5%;
+    /* height: auto; */
+}
+
+.signup img {
+    width: 500px;
+    height: 300px;
+    align-self: center;
+    justify-self: end;
+    border: whitesmoke 1px solid;
+
+}
+
+.mainPart {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.mainPart h1 {
+    align-self: center;
+}
+
+.champions {
+    display: flex;
+    justify-content: space-evenly;
+}
+.championBox img {
+    border-radius: 15%;
+    width: 150px;
+    height: 150px;
+}
+
+.championBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15vw;
+
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    border: 2px black solid;
+    align-items: center;
+    justify-content: center;
+    background-color: lightslategray;
+
+
+}
+
+.quoteDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.quote h1 {
+    margin: 0px;
+}
+.quote h2 {
+    margin: 0px;
+    align-self: flex-end;
+}
+
+.callToAction {
+    display: flex;
+    height: 35vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.callToAction .actionBox {
+    display: flex;
+    border: 1px black solid;
+    background-color: aquamarine;
+    height: 50%;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxWriting {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.boxWriting h1, .boxWriting p {
+    margin: 0px;
+}
+
+.boxButton {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.boxButton button {
+    width: 150px;
+    height: 40px;
+    border-radius: 40%;
+}
